@@ -1,0 +1,7 @@
+selfenrolment.selfenrolmentsignup_form:
+  path: 'selfenrolment/signup'
+  defaults:
+    _form: '\Drupal\selfenrolment\Form\SelfenrolmentsignupForm'
+    _title: 'SelfenrolmentsignupForm'
+  requirements:
+    _access: 'TRUE'

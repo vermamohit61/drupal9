@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains selfenrolment.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function selfenrolment_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the selfenrolment module.
+    case 'help.page.selfenrolment':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function selfenrolment_theme() {
+  return [
+    'selfenrolment' => [
+      'render element' => 'children',
+    ],
+  ];
+}
