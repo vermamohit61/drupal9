@@ -1,0 +1,17 @@
+uuid: 8b7e763b-2987-40e7-b463-f57b5d25add3
+langcode: en
+status: true
+dependencies: {  }
+id: local
+label: Local
+description: ''
+weight: 0
+folder: sites/default/config/local
+module: {  }
+theme: {  }
+blacklist:
+  - devel.settings
+  - devel.toolbar.settings
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

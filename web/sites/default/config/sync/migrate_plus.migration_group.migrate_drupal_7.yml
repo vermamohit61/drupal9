@@ -1,0 +1,20 @@
+uuid: ab3b9310-d429-4188-b407-edc7691b2b8b
+langcode: en
+status: true
+dependencies: {  }
+id: migrate_drupal_7
+label: 'Import from Drupal 7'
+description: 'Migrations originally generated from drush migrate-upgrade --configure-only'
+source_type: 'Drupal 7'
+module: null
+shared_configuration:
+  source:
+    key: drupal_7
+    database:
+      driver: mysql
+      username: root
+      password: root
+      host: localhost
+      port: ''
+      database: drupalto
+      prefix: null

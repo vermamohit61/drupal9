@@ -1,0 +1,15 @@
+uuid: 4f0a247e-cd99-485c-8dad-6de93120e153
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: Dev
+description: ''
+weight: 0
+folder: sites/default/config/dev
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

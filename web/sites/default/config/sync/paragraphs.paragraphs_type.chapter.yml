@@ -1,0 +1,10 @@
+uuid: 799dc3a9-739c-4172-ba17-e65efcfe31ef
+langcode: en
+status: true
+dependencies: {  }
+id: chapter
+label: Chapter
+icon_uuid: null
+icon_default: null
+description: 'Migrated from field_collection field_chapter'
+behavior_plugins: {  }

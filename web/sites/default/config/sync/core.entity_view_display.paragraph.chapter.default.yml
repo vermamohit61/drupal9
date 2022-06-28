@@ -1,0 +1,44 @@
+uuid: ec686ffc-c0b7-4abd-be2a-6e0d21d86ecb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.chapter.field_cimage
+    - field.field.paragraph.chapter.field_description
+    - field.field.paragraph.chapter.field_title
+    - paragraphs.paragraphs_type.chapter
+  module:
+    - image
+    - text
+id: paragraph.chapter.default
+targetEntityType: paragraph
+bundle: chapter
+mode: default
+content:
+  field_cimage:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

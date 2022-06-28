@@ -1,0 +1,31 @@
+uuid: 56486a6a-310b-46d3-8b22-877ddf1698fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chapter
+    - node.type.article
+    - paragraphs.paragraphs_type.chapter
+  module:
+    - entity_reference_revisions
+id: node.article.field_chapter
+field_name: field_chapter
+entity_type: node
+bundle: article
+label: chapter
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      chapter: chapter
+    negate: 0
+    target_bundles_drag_drop:
+      chapter:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions
